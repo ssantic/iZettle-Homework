@@ -15,6 +15,7 @@ def makecalc():
 
 
 if __name__ == '__main__':
-    modelfile = 'rf_model.pickle'
-    model = p.load(open(modelfile, 'rb'))
+    model0 = p.load(open(rf_model_0, 'rb'))
+    model1 = p.load(open(rf_model_1, 'rb'))
+    model2 = p.load(open(rf_model_2, 'rb'))
     app.run(debug=True, host='0.0.0.0')
