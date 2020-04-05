@@ -15,7 +15,7 @@ def makecalc():
 
 
 if __name__ == '__main__':
-    model1 = p.load(open(rf_model_1, 'rb'))
-    model2 = p.load(open(rf_model_2, 'rb'))
-    model3 = p.load(open(rf_model_3, 'rb'))
+    model1 = p.load(open('rf_model_1.pickle', 'rb'))
+    model2 = p.load(open('rf_model_2.pickle', 'rb'))
+    model3 = p.load(open('rf_model_3.pickle', 'rb'))
     app.run(debug=True, host='0.0.0.0')
