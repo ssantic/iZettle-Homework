@@ -11,5 +11,5 @@ COPY rf_model.pickle rf_model.pickle
 # Expose port 5000 for the Flask server
 EXPOSE 5000
 
-# Runt the Flask server on container start
+# Run the Flask server on container start
 CMD ["python", "app.py"]
